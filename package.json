@@ -1,0 +1,23 @@
+{
+  "name": "fantasy_team_prediction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "cd Back_End && nodemon index.js",
+    "client": "cd Front_End && npm run dev",
+    "dev": "concurrently \"npm run server\" \"npm run client \""
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "concurrently": "^7.6.0",
+    "dotenv": "^16.0.3",
+    "vite": "^4.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.12"
+  }
+}
